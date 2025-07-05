@@ -1,0 +1,37 @@
+{
+  "name": "wrld-relief-smart-contract",
+  "version": "1.0.0",
+  "description": "WRLD Relief Smart Contract System",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network testnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet"
+  },
+  "keywords": [
+    "ethereum",
+    "hardhat",
+    "solidity",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts": "^4.8.3",
+    "@openzeppelin/contracts-upgradeable": "^4.9.6",
+    "@openzeppelin/hardhat-upgrades": "^1.28.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.1",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "dependencies": {
+    "glob": "^7.2.0"
+  }
+}

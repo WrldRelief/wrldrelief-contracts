@@ -1,0 +1,13 @@
+{
+  "network": "testnet",
+  "deployer": "0x4072ca2A7DFa6C1865aA6165ddA3e2a4dcad1D8F",
+  "contracts": {
+    "DisasterRegistry": "0x9f4465127027adAca3dd612BaE32BF927EFFFaF8",
+    "WrldReliefUser": "0x13370dFd180E195985bF154276c777Ee5740FE5c",
+    "WRLFGovernanceToken": "0x0BbF798d33Ae564657D4A0825a29Fd710d3daAB4",
+    "WrldReliefSBT": "0x42d377Ebb2B13399bDE92640CBBf17Fa7e15fA3c",
+    "CampaignImplementation": "0xA29fb7Ff3127a18B07326B0c7044FA88026B87Df",
+    "CampaignFactory": "0x6505bE90bDd18784b7387D0700eA7672b3B36041"
+  },
+  "timestamp": "2025-06-26T00:27:07.012Z"
+}
